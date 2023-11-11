@@ -1,0 +1,11 @@
+.idea
+moved_for_now/S_005_DataImport_00_producers.sql
+moved_for_now/S_005_DataImport_01_consumers.sql
+
+# Except the notes
+!db_init/data/notes.md
+!persistent_storage/notes.md
+
+persistent_storage/**
+db_init/data/**
+DS_Store
