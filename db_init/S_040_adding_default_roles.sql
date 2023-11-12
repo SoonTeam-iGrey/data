@@ -1,0 +1,1 @@
+INSERT INTO skilltracker.roles (id, name) VALUES ('USER'), ('RECRUITER');

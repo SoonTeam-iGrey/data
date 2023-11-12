@@ -19,7 +19,6 @@ CREATE TABLE `experience_skills` (
   `id` int NOT NULL AUTO_INCREMENT,
   `skill_id` int NOT NULL,
   `experience_id` int NOT NULL,
-  `updated_on` int NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `id_UNIQUE` (`id`),
   KEY `experience_skills_skill_fk_idx` (`skill_id`),
